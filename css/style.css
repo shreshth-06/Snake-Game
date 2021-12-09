@@ -46,6 +46,7 @@
   border: 2px solid purple;
   transform: scale(1.02);
   border-radius: 9px;
+  /* background: url("../snake2.png"); */
 }
 
 .food {

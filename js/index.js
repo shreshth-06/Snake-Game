@@ -77,7 +77,7 @@ function gameEngine() {
     if (score > hiscore) {
       hiscoreval = score;
       localStorage.setItem("hiscore", JSON.stringify(hiscoreval));
-      hiscoreBox.innerHTML = "HiScore : " + hiscoreval;
+      hiscoreBox.innerHTML = "Hi Score : " + hiscoreval;
     }
     scoreBox.innerHTML = "Score : " + score;
     snakeArr.unshift({
@@ -135,7 +135,7 @@ if (hiscore === null) {
   localStorage.setItem("hiscore", JSON.stringify(hiscoreval));
 } else {
   hiscoreval = JSON.parse(hiscore);
-  hiscoreBox.innerHTML = "HiScore : " + hiscore;
+  hiscoreBox.innerHTML = "Hi Score : " + hiscore;
 }
 
 window.requestAnimationFrame(main); // -->> "main" is a function.
